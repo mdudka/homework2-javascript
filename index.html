@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechMagic Homework</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechMagic Homework 2</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/reboot.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="queue-management">
+        <input class="queue-management__input input" type="text" name="queue-input" id="queue-input" placeholder="Enter item to add to the queue"/>
+        <button id="add-item-btn" class="btn btn-add">Add</button>
+        <button id="delete-item-btn" class="btn btn-delete">Remove</button>
+      </div>
+      <div class="queue-display">
+        <h2 class="queue-display__header">Queue:</h4>
+        <p id="empty-message" class="queue-display__empty-message">
+          The queue is empty for now..
+        </p>
+        <ul id="queue" class="queue"></ul>
+      </div>
+    </div>
+  </body>
 </html>

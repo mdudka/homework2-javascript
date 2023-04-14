@@ -1,0 +1,95 @@
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #680283,
+    #6736a0,
+    #6455bb,
+    #6272d1,
+    #638de5,
+    #49a1f2,
+    #2fb5fb,
+    #22c7ff,
+    #00d6fd,
+    #00e4f4,
+    #17f0e5,
+    #5ffbd2
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.queue-management {
+  width: 600px;
+  height: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.input {
+  background-color: transparent;
+  color: white;
+  padding: 0.4rem 0.4rem 0 o;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  width: 17rem;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.btn {
+  padding: 0.4rem 2rem;
+  border: none;
+  outline: none;
+  background-color: rgb(142, 108, 255);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 8px 8px 14px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.queue-display {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.queue {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.queue__item {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
