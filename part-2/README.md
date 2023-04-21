@@ -1,8 +1,8 @@
 ## Homework part 2
 
 This is a simple project that demonstrates interaction with Post entities from [Go REST](https://gorest.co.in/) 
-open api. Simple error handling is implemented using the APIError class, which extends the built-in Error clas
-You can add fetch all Posts, fetch one Post by ID or create own Post and send it to API with POST request.
+open api. Simple error handling is implemented using the APIError class, which extends the built-in Error class.
+You can fetch all Posts, fetch one Post by ID or create own Post and send it to API with POST request.
 In order for the created posts to be stored in the API, an access token is used.
 
 I understand that access tokens are private and should not be shared in open sources.
