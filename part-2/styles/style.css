@@ -1,0 +1,49 @@
+.post-management {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+}
+
+.post-management__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.label {
+  margin: 0;
+  align-self: flex-start;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.input {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.post-list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-bottom: 1px solid gray;
+}

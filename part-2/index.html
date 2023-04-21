@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="module" src="scripts/app.js" defer></script>
+    <link rel="stylesheet" href="styles/reboot.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>TechMagic homework</title>
+  </head>
+  <body>
+    <section class="post-management">
+      <section class="post-management__section add-post-section">
+        <h2>Add Post</h2>
+        <div class="form">
+          <label class="label" for="add-post-user_id-input">User ID:</label>
+          <input class="input" type="text" id="add-post-user_id-input" />
+          <label class="label" for="add-post-title-input">Title:</label>
+          <input class="input" type="text" id="add-post-title-input" />
+          <label class="label" for="add-post-body-input">Body:</label>
+          <textarea class="input" id="add-post-body-input"></textarea>
+          <button class="btn" id="add-post">Add Post</button>
+        </div>
+      </section>
+      <section class="post-management__section">
+        <h2>Get Posts</h2>
+        <button class="btn" id="get-all-posts">Get All Posts!</button>
+      </section>
+      <section class="post-management__section">
+        <h2>Get a Single Post</h2>
+        <div class="form">
+          <label class="label" for="post-id-input">Post ID:</label>
+          <input class="input" type="text" id="post-id-input" />
+          <button class="btn" id="get-single-post">Get Post</button>
+        </div>
+      </section>
+    </section>
+
+    <ul id="posts-list"></ul>
+  </body>
+</html>
